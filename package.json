@@ -1,0 +1,11 @@
+{
+  "name": "graphql-movieAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/deokgoo/graphql-movieAPI",
+  "author": "deokgoo <kkddgg1001@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
