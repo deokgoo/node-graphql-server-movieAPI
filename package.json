@@ -5,7 +5,19 @@
   "repository": "https://github.com/deokgoo/graphql-movieAPI",
   "author": "deokgoo <kkddgg1001@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
   "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
     "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
   }
 }

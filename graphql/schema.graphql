@@ -1,0 +1,17 @@
+type Movie {
+  id: Int
+  title: String
+  original_title: String
+  popularity: Float
+  overview: String
+  language: String
+  poster_path: String
+  release_date: String
+  adult: Boolean
+
+}
+
+type Query {
+  ranking: [Movie]
+  search(title: String!): String
+}
