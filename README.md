@@ -8,6 +8,7 @@ solved this
 을 겪고 GraphQL로 리뉴얼 하기 위한 프로젝트입니다.
 
 ## directory
+```
 📦root
  ┣ 📂graphql
  ┃ ┣ 📜api.js
@@ -19,4 +20,4 @@ solved this
  ┣ 📜index.js
  ┣ 📜package.json
  ┗ 📜yarn.lock
- 
+```
