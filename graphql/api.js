@@ -13,7 +13,19 @@ export const findMovieByTitle = async (title) => {
   const {
     results
   } = response.data;
-  console.log(results);
+
+  return results;
+}
+
+export const findMovieById = async (id) => {
+  if (!id) return;
+  const url = `${API_URL}/movie/${id}?api_key=${API_KEY}`;
+  const response = await axios({
+    method: 'get',
+    url
+  });
+  let results = response.data;
+  results.poster_path = `https://image.tmdb.org/t/p/w500${results.poster_path}`
 
   return results;
 }
@@ -28,7 +40,10 @@ export const findRanking = async () => {
   const {
     results
   } = response.data;
-  console.log(results);
+
+  results.forEach(x => {
+    x.poster_path = `https://image.tmdb.org/t/p/w500${x.poster_path}`
+  })
 
   return results;
 }
