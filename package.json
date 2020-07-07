@@ -6,7 +6,7 @@
   "author": "deokgoo <kkddgg1001@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "start": "yarn install & nodemon --exec babel-node index.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
