@@ -12,6 +12,6 @@ type Movie {
 
 type Query {
   ranking: [Movie]
-  searchById(id: Int): Movie
+  searchById(id: Int!): Movie
   search(title: String!): String
 }
