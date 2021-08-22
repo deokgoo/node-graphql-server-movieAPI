@@ -21,3 +21,6 @@ solved this
  ┣ 📜package.json
  ┗ 📜yarn.lock
 ```
+
+## graphql playground
+https://radiant-savannah-89802.herokuapp.com/
